@@ -116,7 +116,7 @@ function ListBox({ children }) {
         {isOpen1 ? '–' : '+'}
       </button>
 
-      {isOpen1 && children}
+      {isOpen1 && { children }}
     </div>
   )
 }
